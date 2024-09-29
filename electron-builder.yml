@@ -1,0 +1,18 @@
+appId: com.example.electron-sales-analyzer
+productName: BMS Sales Analyzer
+directories:
+  output: dist
+  buildResources: build
+files:
+  - "dist/**/*"
+  - "package.json"
+publish: null
+mac:
+  target:
+    - dmg
+    - zip
+win:
+  target:
+    - dir
+compression: maximum
+asar: true
