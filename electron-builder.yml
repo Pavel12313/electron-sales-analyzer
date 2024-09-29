@@ -9,7 +9,8 @@ files:
 publish: null
 mac:
   target:
-    - dmg
+    - dmg:
+        blockMap: false
     - zip
 win:
   target:
